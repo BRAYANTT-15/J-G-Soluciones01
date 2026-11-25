@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # J&G Soluciones
 
 Sitio corporativo de J&G Soluciones, construido con React y Vite.
@@ -11,9 +10,6 @@ Sitio corporativo de J&G Soluciones, construido con React y Vite.
 
 ## Compilar para producción
 
-Ejecuta `npm run build`. Los archivos listos para publicar se generan en `dist/`.
+Ejecuta `npm run build`. Los archivos listos para publicar se generan en `dist/` (no se sube a Git; Vercel lo compila al publicar).
 
-La galería utiliza las 144 fotos compartidas en la carpeta `images`, optimizadas en WebP y organizadas por servicio. Las imágenes del hero y de “Nosotros” también se eligieron de esa colección. La lista y clasificación de la galería está en `src/projects.js`.
-=======
-# J-G-Soluciones01
->>>>>>> 5e09b97ec2a7d3d4eacb2a5ccd26b30bed71511e
+La galería utiliza las 144 fotos compartidas, optimizadas en WebP y organizadas por servicio en `public/images/`. Las imágenes del hero y de "Nosotros" también se eligieron de esa colección. La lista y clasificación de la galería está en `src/projects.js`.
