@@ -147,3 +147,15 @@ body{background:#f1eee7;color:#25221f}
 .home .work-strip{flex:none;padding:10px 0}
 .home .work-strip figure{width:250px;height:160px}
 @media (max-width:700px){.home{min-height:0}.home .hero{height:auto;min-height:640px}.home .work-strip figure{width:190px;height:125px}.home .work-strip{padding:8px 0}}
+
+/* Cómo trabajamos */
+.process{padding-top:84px;padding-bottom:88px;background:#faf8f4}
+.process h2{font-family:'Playfair Display',Georgia,serif;font-weight:500;font-size:clamp(36px,4.2vw,54px);line-height:1.08;letter-spacing:-.035em;margin:18px 0 38px}
+.process h2 em{color:#a67c3d}
+.steps{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin:0 0 38px;padding:0}
+.steps li{border-top:1px solid #ded8cc;padding-top:20px}
+.steps li b{display:block;font:500 13px 'DM Sans',sans-serif;letter-spacing:.14em;color:#a67c3d}
+.steps li h3{font:500 25px 'Playfair Display',Georgia,serif;margin:12px 0 8px}
+.steps li p{font-size:13px;line-height:1.7;color:#6f6a62;max-width:340px}
+@media (max-width:700px){.process{padding-top:64px;padding-bottom:68px}.steps{grid-template-columns:1fr;gap:22px}}
+.contact-form .optional{font-weight:400;opacity:.65;text-transform:none;letter-spacing:0}
